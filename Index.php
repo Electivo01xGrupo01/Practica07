@@ -15,4 +15,14 @@ class Tarea{
         else
             return $n2;
     }
+    //Autor: Robert Castro Ugas
+    function Factorial($numero){
+        $factorial = 1;
+        $contador = 1;
+        while ($contador <= $numero){
+            $factorial*=$contador;
+            $contador++;
+        }
+        return $factorial;
+    }
 }
